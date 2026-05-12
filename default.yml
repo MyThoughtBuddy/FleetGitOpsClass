@@ -26,7 +26,11 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: MTB x Fleet
+    org_name: MTB x Fleet Workshop
+    webhook_settings:
+      activities_webhook:
+        enable_activities_webhook: true
+        destination_url: webhook.site https://www.apple.com/
 
   server_settings:
     ###########################################################
