@@ -17,6 +17,11 @@
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "📱🔐 Personal mobile devices"
+labels:
+  - name: C-Suite
+    descriptions: Host belonging to the C-Suite
+    label_membership_type: manual
+    hosts:
 controls:
   setup_experience:
     ###########################################################
@@ -107,8 +112,3 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
-labels:
-  - name: C-Suite
-    descriptions: Host belonging to the C-Suite
-    label_membership_type: manual
-    hosts:
