@@ -17,11 +17,6 @@
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "📱🔐 Personal mobile devices"
-labels:
-  - name: C-Suite
-    descriptions: Host belonging to the C-Suite
-    label_membership_type: manual
-    hosts:
 controls:
   setup_experience:
     ###########################################################
@@ -72,6 +67,11 @@ controls:
   # ipados_updates:
   #   deadline: "2030-04-01"
   #   minimum_version: "18.5"
+  labels:
+  - name: C-Suite
+    descriptions: Host belonging to the C-Suite
+    label_membership_type: manual
+    hosts:
 
 ###########################################################
 # Apps to make available from the Apple App Store or Google Play
